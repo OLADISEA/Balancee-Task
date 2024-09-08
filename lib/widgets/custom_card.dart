@@ -45,8 +45,13 @@ class CustomCard extends StatelessWidget {
               child: Icon(icon,color: Colors.white,),
             ),
             SizedBox(height: 15.h,),
-            AppText(
-              text: "₦${amount.toStringAsFixed(2)}", fontSize: 15.sp, fontWeight: FontWeight.bold,
+            Text(
+              "\u20A6${amount.toStringAsFixed(2)}",
+              style: TextStyle(
+                fontSize: 15.sp,
+                fontWeight: FontWeight.bold,
+
+              ),
             ),
             const SizedBox(height: 8),
             AppText(
