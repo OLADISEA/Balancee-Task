@@ -1,6 +1,6 @@
 import 'package:cash_track/bloc/cashout/cashout_bloc.dart';
 import 'package:cash_track/core/splash_screen/splash_screen.dart';
-import 'package:cash_track/services/database/isar_service.dart';
+import 'package:cash_track/services/database/cashback_db.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

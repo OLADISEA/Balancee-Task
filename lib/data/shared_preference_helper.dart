@@ -3,9 +3,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 class SharedPreferencesHelper {
   static SharedPreferences? _preferences;
 
-  static const String _keyUserId = 'userId';
-  static const String _keyUsername = 'username';
-  static const String _keyUserEmail = 'userEmail';
   static const String _keyTotalCashback = 'totalCashback';
   static const String _keyAvailableCashback = 'availableCashback';
   static const String _keyIsInitialized = 'isInitialized'; // New flag to check initialization
@@ -23,30 +20,6 @@ class SharedPreferencesHelper {
     }
   }
 
-  // User-related functions
-  static Future setUserId(String userId) async {
-    await _preferences?.setString(_keyUserId, userId);
-  }
-
-  static String? getUserId() {
-    return _preferences?.getString(_keyUserId);
-  }
-
-  static Future setUsername(String username) async {
-    await _preferences?.setString(_keyUsername, username);
-  }
-
-  static String? getUsername() {
-    return _preferences?.getString(_keyUsername);
-  }
-
-  static Future setUserEmail(String userEmail) async {
-    await _preferences?.setString(_keyUserEmail, userEmail);
-  }
-
-  static String? getUserEmail() {
-    return _preferences?.getString(_keyUserEmail);
-  }
 
   // Cashback-related functions
   static Future setTotalCashback(double totalCashback) async {

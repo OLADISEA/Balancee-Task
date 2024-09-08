@@ -51,13 +51,13 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
               child: Center(
                 child: SizedBox(
-                  width: 90.h,
+                  width: 100.h,
                   child: Transform.rotate(
                     angle: -30 * pi / 180, // Rotate the text by 80 degrees
                     child: AppText(
                       textAlign: TextAlign.center,
                       text: "Balanceè App",
-                      fontSize: 22.sp,
+                      fontSize: 24.sp,
                       fontWeight: FontWeight.w700,
                     ),
                   ),

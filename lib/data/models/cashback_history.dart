@@ -6,14 +6,14 @@ part 'cashback_history.g.dart';  // Necessary for code generation
 class CashbackHistory {
   Id? id;  // ISAR auto-increment ID field
 
-  @Index()  // Optional: if you need to index this field for faster queries
-  late DateTime transactionDate;  // Use DateTime instead of String
+  @Index()
+  late DateTime transactionDate;
 
   late double amountEarned;
 
   late String bookingDetails;
 
-  late String description;  // Add description field
+  late String description;
 
   // Constructor
   CashbackHistory({

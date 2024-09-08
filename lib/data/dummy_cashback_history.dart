@@ -45,19 +45,19 @@ List<CashbackHistory> getDummyCashbackHistory() {
       description: 'Online shopping cashback',
     ),
     CashbackHistory(
-      transactionDate: DateTime.now().subtract(Duration(days: 25)),
+      transactionDate: DateTime.now().subtract(const Duration(days: 25)),
       amountEarned: 6.20,
       bookingDetails: 'Booking #78901',
       description: 'Movie tickets cashback',
     ),
     CashbackHistory(
-      transactionDate: DateTime.now().subtract(Duration(days: 30)),
+      transactionDate: DateTime.now().subtract(const Duration(days: 30)),
       amountEarned: 25.00,
       bookingDetails: 'Booking #89012',
       description: 'Vacation package cashback',
     ),
     CashbackHistory(
-      transactionDate: DateTime.now().subtract(Duration(days: 35)),
+      transactionDate: DateTime.now().subtract(const Duration(days: 35)),
       amountEarned: 18.75,
       bookingDetails: 'Booking #90123',
       description: 'Electronics purchase cashback',

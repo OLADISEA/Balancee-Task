@@ -2,7 +2,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:isar/isar.dart';
 import '../../data/models/cashback_transaction.dart';
 import '../../data/shared_preference_helper.dart';
-import '../../services/database/isar_service.dart';
+import '../../services/database/cashback_db.dart';
 import '../cashback/cashback_event.dart';
 import '../cashback/cashback_state.dart';
 
