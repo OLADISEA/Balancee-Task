@@ -173,9 +173,14 @@ class _CashOutPageState extends State<CashOutPage> with SingleTickerProviderStat
           ),
         ),
         const SizedBox(height: 10),
-        AppText(
-          text: "Available Cashback: ₦${availableCashback.toStringAsFixed(2)}",
-          color: AppColor.kBlack,fontSize: 14.sp,),
+        Text(
+          "Available Cashback: ₦${availableCashback.toStringAsFixed(2)}",
+          style: TextStyle(
+            color: AppColor.kBlack,
+            fontSize: 14.sp,
+
+          ),
+        ),
 
       ],
     );
