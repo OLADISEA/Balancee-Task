@@ -9,7 +9,7 @@ import '../../bloc/cashback/cashback_bloc.dart';
 import '../../bloc/cashback/cashback_state.dart';
 import '../../data/shared_preference_helper.dart';
 import '../../widgets/app_text.dart';
-import 'cashback_history.dart';
+import 'cashback_history_page.dart';
 import 'cashout_page.dart';
 
 class RewardsSummaryPage extends StatelessWidget {
