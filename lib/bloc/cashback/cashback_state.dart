@@ -24,7 +24,7 @@ class CashbackLoaded extends CashbackState {
 class CashbackUpdated extends CashbackState {
   final List<CashbackTransaction> transactions;
   final double newCashbackAmount;
-  CashbackUpdated({required this.transactions, required this.newCashbackAmount});
+  const CashbackUpdated({required this.transactions, required this.newCashbackAmount});
 }
 
 class CashbackError extends CashbackState {

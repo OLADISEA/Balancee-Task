@@ -6,7 +6,7 @@ import '../../data/models/cashback_transaction.dart';
 class CashbackHistoryDetailsPage extends StatelessWidget {
   final CashbackTransaction transaction;
 
-  const CashbackHistoryDetailsPage({Key? key, required this.transaction}) : super(key: key);
+  const CashbackHistoryDetailsPage({super.key, required this.transaction});
 
   @override
   Widget build(BuildContext context) {

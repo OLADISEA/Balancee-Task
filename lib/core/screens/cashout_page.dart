@@ -232,7 +232,7 @@ class _CashOutPageState extends State<CashOutPage> with SingleTickerProviderStat
                 backgroundColor: AppColor.tertiaryColor
               ),
               onPressed: () {
-                Navigator.pop(context);  // Close dialog without doing anything
+                Navigator.pop(context);  // Close dialog
               },
               child: AppText(text:"Cancel",fontSize: 10.sp,color: AppColor.kBlack,),
             ),

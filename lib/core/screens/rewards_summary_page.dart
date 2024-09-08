@@ -30,9 +30,9 @@ class RewardsSummaryPage extends StatelessWidget {
               boxShadow: [
                   BoxShadow(
                   color: Colors.black.withOpacity(0.2), // Shadow color
-              spreadRadius: 1, // Spread radius
-              blurRadius: 6,   // Blur radius
-              offset: const Offset(0, 3), // Shadow position (x: horizontal, y: vertical)
+              spreadRadius: 1,
+              blurRadius: 6,
+              offset: const Offset(0, 3),
             ),
               ]
             ),
@@ -82,7 +82,6 @@ class RewardsSummaryPage extends StatelessWidget {
                       Navigator.of(context).push(MaterialPageRoute(builder: (context) => const CashOutPage()));
                     },
                   ),
-                  //_buildCashoutButton(context, 100.0),
                   SizedBox(height: 25.h),
                   AppText(
                     text: "Cashback History",

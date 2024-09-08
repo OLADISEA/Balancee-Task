@@ -13,7 +13,7 @@ class CashoutBloc extends Bloc<CashoutEvent, CashoutState> {
     emit(CashoutInProgress());
     try {
       // Simulate cashout processing
-      await Future.delayed(Duration(seconds: 2));
+      await Future.delayed(const Duration(seconds: 2));
 
       if (event.amount > 0) {
         emit(CashoutSuccess(amount: event.amount, method: event.method));
